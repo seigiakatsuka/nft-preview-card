@@ -1,0 +1,92 @@
+/*
+Primary
+Soft blue: hsl(215, 51%, 70%)
+Cyan: hsl(178, 100%, 50%)
+Neutral
+Very dark blue (main BG): hsl(217, 54%, 11%)
+Very dark blue (card BG): hsl(216, 50%, 16%)
+Very dark blue (line): hsl(215, 32%, 27%)
+White: hsl(0, 0%, 100%)
+*/
+
+body {
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 26px;
+  color: hsl(215, 51%, 70%);
+
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+h1:hover,
+h1:focus {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 152px 545px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 8px;
+  width: 350px;
+  height: 596px;
+}
+
+.nft-image {
+  margin: 24px auto;
+  height: 302px;
+  width: 302px;
+  border-radius: 8px;
+}
+
+.ethereum-icon {
+  width: 11px;
+  height: 18px;
+}
+
+.clock-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.avatar {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+  width: 33px;
+  height: 33px;
+  
+}
+
+@media (min-width:375px){
+  .container {
+    margin: 62px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 543px;
+  }
+
+  .nft-image {
+    margin: 24px;
+    height: 278px;
+    width: 278px;
+  }
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
